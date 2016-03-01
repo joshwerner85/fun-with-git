@@ -1,3 +1,67 @@
-h1{
-	color:pink;
+header{
+ 	height:3.125em;
+ 	background:#118BC0;
+
+ }
+
+body {
+	font-family:arial;
 }
+
+h1 {
+	margin-bottom:2em;
+}
+ 
+ h2 {
+ 	margin-top:-1.5em;
+ }
+
+.top {
+	height:556px;
+	background:#344051;
+}
+
+.create {
+	color:white;
+	margin: 0 auto;
+}
+
+.jumbotron {
+ 	background:#344051;
+ 	height: 45em;
+ 	padding:5em;
+ 	color:white;
+ 	text-align:center;
+ }
+
+ .button {
+ 	background:#1E8CBE;
+ 	color:white;
+ 	text-decoration:none;
+ 	height:2.1875em;
+ 	width:14em;
+ 	border: 0.6875em solid #212934;
+ 	margin: 0 auto;
+ 	margin-top:2em;
+ }
+
+ .smallwhitebox {
+ 	height:12px;
+ 	width:27px;
+ 	background:white;
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 7em;
+}
+
+  
+ .largewhitebox {
+ 	height:35px;
+ 	width:152px;
+ 	background:white;
+     margin: auto;
+    margin-top: 1em;
+}
+
+  
+ 
