@@ -98,6 +98,15 @@ h2.ready-for-mobile {
     margin-top: -2.15em;
 }
 
+h2.freshly-pressed {
+    margin-left: -69px;
+    margin-top: -2.15em;
+}
+
+h2.hundreds-of-designs {
+    margin-left: 1px;
+    margin-top: -2.15em;
+}
 
 h4.download-ios-android {
     margin-left: -0.75em;
@@ -116,11 +125,14 @@ h2.wordpress-text-section {
     color:#324155;
 }
 
-
+p {
+    color:#4B4B4C;
+}
 
 h3.wordpress-h3 {
     text-align: center;
     margin-top: 1em;
+    color:#426277;
 }
 
 
@@ -165,17 +177,17 @@ h2.create-website {
 
   
 body { 
-	font-family:arial;
+    font-family:arial;
  }
 
 h1 {
-	margin-bottom: 2em;
+    margin-bottom: 2em;
     margin: 2.67em 0;
 }
  
  h2 {
- 	margin-top:-1.5em;
- 	margin-bottom: 2.37em;
+    margin-top:-1.5em;
+    margin-bottom: 2.37em;
  }
 
 h3 {
@@ -187,21 +199,21 @@ h4 {
     margin: -3em -2em;
 }
 .top {
-	height:556px;
-	background:#344051;
+    height:556px;
+    background:#344051;
 }
 
 .create {
-	color:white;
-	margin: 0 auto;
+    color:white;
+    margin: 0 auto;
 }
 
 .jumbotron {
- 	background:#344051;
- 	height: 60em;
- 	padding:5em;
- 	color:white;
- 	text-align:center;
+    background:#344051;
+    height: 60em;
+    padding:5em;
+    color:white;
+    text-align:center;
  }
 
  .button {
@@ -226,9 +238,9 @@ h4 {
 
   
  .largewhitebox {
- 	height:35px;
- 	width:152px;
- 	background:white;
+    height:35px;
+    width:152px;
+    background:white;
      margin: auto;
     margin-top: 1em;
 } 
@@ -259,31 +271,31 @@ h4 {
 }
  
  .lightbackground {
- 	background:#E3EBF0;
- 	padding-top:10em;
- 	padding-bottom: 2em;
- 	margin-bottom: 2em;
+    background:#E3EBF0;
+    padding-top:10em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
  }
 
  .square {
- 	height:3em;
- 	width:12em;
- 	background:#2F79AD;
- 	margin:auto;
+    height:3em;
+    width:12em;
+    background:#2F79AD;
+    margin:auto;
  }
 
  footer{
- 	background:black;
- 	height:10em;
- 	margin-top: -1em;
+    background:black;
+    height:10em;
+    margin-top: -1em;
 
  }
 
  .whitesquare {
- 	height:3em;
- 	width:12em;
- 	background:#2F79AD;
- 	margin:auto;
+    height:3em;
+    width:12em;
+    background:#2F79AD;
+    margin:auto;
  }
 
  span a {
@@ -300,9 +312,9 @@ span {
 }
 
 .footmenu li {
-	text-decoration:none;
-	display:inline;
-	color:white;
+    text-decoration:none;
+    display:inline;
+    color:white;
 
 }
 
