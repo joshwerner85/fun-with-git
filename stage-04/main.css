@@ -77,11 +77,12 @@ span.span-text {
  
 
  .auto {
-    background:black;
-    color:white;
-    text-align:center;
-    margin-top:15px;
- }
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 1.5em;
+}
 
 .graybox {
     height: 3em;
