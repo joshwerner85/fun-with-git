@@ -10,7 +10,7 @@
     float: left;
     width: 2em;
     height: 2em;
-    background: white;
+    
     margin-left: 1em;
     margin-top: .50em;
 }
@@ -53,7 +53,14 @@ span.span-text {
 }
 /*-----NAVIGATION-----END-----*/
 
- 
+ .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 21px solid white;
+    margin: 16em auto;
+}
 
 .button1 {
     background: #1E8CBE;
@@ -125,11 +132,14 @@ h2.wordpress-text-section {
     color:#324155;
 }
 
-
+p {
+    color:#4B4B4C;
+}
 
 h3.wordpress-h3 {
     text-align: center;
     margin-top: 1em;
+    color:#426277;
 }
 
 
@@ -174,17 +184,17 @@ h2.create-website {
 
   
 body { 
-	font-family:arial;
+    font-family:arial;
  }
 
 h1 {
-	margin-bottom: 2em;
+    margin-bottom: 2em;
     margin: 2.67em 0;
 }
  
  h2 {
- 	margin-top:-1.5em;
- 	margin-bottom: 2.37em;
+    margin-top:-1.5em;
+    margin-bottom: 2.37em;
  }
 
 h3 {
@@ -196,21 +206,21 @@ h4 {
     margin: -3em -2em;
 }
 .top {
-	height:556px;
-	background:#344051;
+    height:556px;
+    background:#344051;
 }
 
 .create {
-	color:white;
-	margin: 0 auto;
+    color:white;
+    margin: 0 auto;
 }
 
 .jumbotron {
- 	background:#344051;
- 	height: 60em;
- 	padding:5em;
- 	color:white;
- 	text-align:center;
+    background: url(https://s1.wp.com/home.logged-out//images/pic-crowd.webp?2) bottom center no-repeat,;
+    height: 60em;
+    padding:5em;
+    color:white;
+    text-align:center;
  }
 
  .button {
@@ -219,9 +229,10 @@ h4 {
     text-decoration: none;
     height: 3.1875em;
     width: 13em;
-    border: 0.6875em solid #212934;
+    border: 0.6875em solid rgba(59, 10, 11, .5);
     margin: 0 auto;
     margin-top: 5em;
+    opacity: 0.9;
 }
 
  .smallwhitebox {
@@ -235,9 +246,9 @@ h4 {
 
   
  .largewhitebox {
- 	height:35px;
- 	width:152px;
- 	background:white;
+    height:35px;
+    width:152px;
+    background:white;
      margin: auto;
     margin-top: 1em;
 } 
@@ -268,31 +279,31 @@ h4 {
 }
  
  .lightbackground {
- 	background:#E3EBF0;
- 	padding-top:10em;
- 	padding-bottom: 2em;
- 	margin-bottom: 2em;
+    background:#E3EBF0;
+    padding-top:10em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
  }
 
  .square {
- 	height:3em;
- 	width:12em;
- 	background:#2F79AD;
- 	margin:auto;
+    height:3em;
+    width:12em;
+    background:#2F79AD;
+    margin:auto;
  }
 
  footer{
- 	background:black;
- 	height:10em;
- 	margin-top: -1em;
+    background:black;
+    height:10em;
+    margin-top: -1em;
 
  }
 
  .whitesquare {
- 	height:3em;
- 	width:12em;
- 	background:#2F79AD;
- 	margin:auto;
+    height:3em;
+    width:12em;
+    background:#2F79AD;
+    margin:auto;
  }
 
  span a {
@@ -309,9 +320,9 @@ span {
 }
 
 .footmenu li {
-	text-decoration:none;
-	display:inline;
-	color:white;
+    text-decoration:none;
+    display:inline;
+    color:white;
 
 }
 
